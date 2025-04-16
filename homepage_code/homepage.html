@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./homepage-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.css"
+    />
+  </head>
+  <body>
+    <div class="homepage-entire-page-container">
+      <header>
+        <div class="site-header-container">
+          <div class="site-logo-container">
+            <a href="./homepage.html">
+              <img
+                class="site-logo-img"
+                src="../../pictures/site_pics/gregs-arcade-title.png"
+                alt="homepage title"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="game-collection-container">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <div class="swiper-button-next swiper-button"></div>
+            <div class="swiper-button-prev swiper-button"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a
+                    class="video-link"
+                    href="../game_code/snake-game/snake.html"
+                  >
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source
+                        src="../pictures/snake-vid.mov"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Snake</p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a
+                    class="video-link"
+                    href="../game_code/pacman-game/pacman.html"
+                  >
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source
+                        src="../pictures/pacman-vid.mov"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Pacman</p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a
+                    class="video-link"
+                    href="../game_code/tetris-game/tetris.html"
+                  >
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source
+                        src="../pictures/tetris-vid.mov"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Tetris</p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a class="video-link" href="../game_code/pong-game/pong.html">
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source src="../pictures/pong-vid.mov" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Pong</p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a
+                    class="video-link"
+                    href="../game_code/yahtzee-game/yahtzee.html"
+                  >
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source
+                        src="../pictures/yahtzee-vid.mov"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Yahtzee</p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="video-container">
+                  <a class="video-link" href="../game_code/set-game/set.html">
+                    <video class="hover-video swiper-slide-img" muted loop>
+                      <source src="../pictures/set-vid.mov" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </a>
+                </div>
+                <p class="swiper-title">Set</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.js"></script>
+      <script src="./homepage-app.js"></script>
+      <footer>
+        <p class="copyright">©2025 Greg Preiss</p>
+      </footer>
+    </div>
+  </body>
+</html>
